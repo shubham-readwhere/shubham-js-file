@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form action="#" id="registration">
+        <h1>Registration form</h1>
+    
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" />
+        </p>
+    
+        <p>
+            <label for="password1">Password:</label>
+            <input type="password" id="password1" name="password1" />
+        </p>
+    
+        <p>
+            <label for="password2">Confirm Password:</label>
+            <input type="password" id="password2" name="password2" />
+        </p>
+    
+        <p>
+            <input type="radio" id="genderM" name="gender" value="male" />
+            <label for="genderM">Male</label>
+        </p>
+    
+        <p>
+            <input type="radio" id="genderF" name="gender" value="female" />
+            <label for="genderF">Female</label>
+        </p>
+    
+        <p>
+            <label for="continent">Your Continent</label>
+            <select name="continent" id="continent">
+                <option value="">Choose Your Continent</option>
+                <option value="africa">Africa</option>
+                <option value="northamerica">North America</option>
+                <option value="southamerica">South America</option>
+                <option value="antarctica">Antarctica</option>
+                <option value="asia">Asia</option>
+                <option value="australia">Australia</option>
+                <option value="europe">Europe</option>
+            </select>
+        </p>
+    
+        <p>
+            <label for="desc">Describe yourself</label>
+            <textarea name="description" id="desc" cols="30" rows="10"></textarea>
+        </p>
+    
+        <p>
+            <button type="submit" id="register">Register!</button>
+        </p>
+    
+    </form>
+    
+    <div id="errorMessages"></div>
+
+    <script src="stlye.js"></script>
+</body>
+</html>
